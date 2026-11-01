@@ -28,7 +28,7 @@ def test_booking_request_goes_to_a_human():
 
 def test_unknown_request_gets_a_safe_reply():
     helper = make_helper()
-    assert "not sure" in helper.respond("What is your favorite color?")
+    assert "not sure" in helper.respond("How far is the moon from Earth?")
 
 
 def test_history_grows_by_two_each_turn():

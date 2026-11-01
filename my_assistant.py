@@ -1,7 +1,7 @@
 # my_assistant.py
 # Author: Kaden Brenning
 
-HANDOFF_WORDS = ["book", "cancel", "reschedule"]
+HANDOFF_WORDS = ["book", "cancel", "reschedule", "help"]
 
 
 class AppointmentHelper:
