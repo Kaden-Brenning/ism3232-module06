@@ -1,7 +1,7 @@
 # appointment_bot.py
 # Author: Kaden Brenning
 
-HANDOFF_WORDS = ["cancel", "reschedule", "change"]
+HANDOFF_WORDS = ["cancel", "reschedule", "change", "card"]
 MAX_TOOL_ROUNDS = 3
 
 

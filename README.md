@@ -5,6 +5,6 @@ This module contains an assistant that responds to user input. This is a mock ch
 ## One Good
 One positive is that the assistant is able to recognize a request as not answerable. This avoids the assistant from providing incorrect information to the user.
 ## One Bad
-One major flaw with the assistant is the ability for the user to introduce new instructions for the assistant to follow. An example of this occurs when the user states that the hours have changed, as the assistant then uses those hours.
+One major flaw with the assistant is the human handoff only checks for keywords. This means that asking about gift cards would stop the model since it includes the word card.
 ## What Stays
 The human handoff will stay in the code, as the assistant still cannot handle certain requests. 
